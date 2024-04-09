@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Reaction Time Challenge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-slate-900 text-white">
+    <div class="flex flex-col space-y-3 items-center justify-center">
+        <div onclick="startGame()" id="red" class="w-24 h-24 bg-red-600 rounded-full"></div>
+        <div onclick="jumpStart()" id="orange" class="w-24 h-24 bg-orange-600 rounded-full hidden"></div>
+        <div onclick="stopGame()" id="green" class="w-24 h-24 bg-green-600 rounded-full hidden"></div>
+        <h1 class="result text-xl font-mono">Click to start!</h1>
+        <h3 class="best-time font-mono text-sm"></h3>
+    </div>
+
+    <footer class="absolute bottom-10 mx-auto text-center">
+        <p class="text-center">Created by <a href="https://github.com/RiyadhBenhallou" target="_blank">@RiyadhBenhallou</a></p>
+    </footer>
+    
+    
+</body>
+</html>
